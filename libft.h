@@ -1,6 +1,6 @@
 #ifndef LIBFT_H
-
 # define LIBFT_H
+
 # include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
@@ -25,6 +25,9 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memchr (const void *s, int c, size_t n);
 void	*ft_memmove(void *dst, const void *src, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
+char	*ft_strncpy(char *dest, char *source, int len);
+char	*ft_strcpy(char *dest, char *source);
+char	*ft_strcat(char *dest, char *src);
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
@@ -40,5 +43,6 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+int		ft_abs(int i);
 
 #endif
