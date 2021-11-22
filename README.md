@@ -1,4 +1,4 @@
-# **libft**
+# **LIBFT**
 _______
 
 ## **Description**
