@@ -88,5 +88,9 @@ FUNCTION NAME | DESCRIPTION |
 | ft_strtrim | trim beginning and end of string with the specified characters |
 | ft_substr | extract substring from string |
 
+___
+
+## 🧨 **Tests**
+
 
 
