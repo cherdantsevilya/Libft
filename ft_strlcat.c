@@ -7,7 +7,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	size_t	j;
 
 	i = ft_strlen(dst);
-	j = ft_strlen(src);
+	j = ft_strlen((char*)src);
 	k = 0;
 	if (i >= size)
 		return (j + size);

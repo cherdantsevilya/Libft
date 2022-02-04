@@ -7,10 +7,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 	if (!s)
 		return (NULL);
-	if ((size_t)start > ft_strlen(s))
+	if ((size_t)start > (size_t)ft_strlen((char*)s))
 		return (ft_strdup(""));
-	if (len > ft_strlen(s + start))
-		len = ft_strlen(s + start);
+	if (len > (size_t)ft_strlen((char*)(s + start)))
+		len = ft_strlen((char*)(s + start));
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!str)
 		return (NULL);
